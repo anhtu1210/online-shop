@@ -1,0 +1,49 @@
+.w-4 {
+    width: 1rem;
+}
+.h-4 {
+    height: 1rem;
+}
+
+.w-6 {
+    width: 1.5rem;
+}
+.h-6 {
+    height: 1.5rem;
+}
+option:disabled {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(195, 195, 195) !important;
+}
+.dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-image {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.gallery-image .delete-btn {
+    position: absolute;
+    top: 0;
+    right: 7px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    max-width: 100%;
+    height: auto;
+}
